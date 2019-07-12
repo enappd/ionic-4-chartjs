@@ -1,0 +1,90 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Bar Charts with Chart.js
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list-header color="light">Vertical Bar Chart</ion-list-header>
+  <ion-card class="welcome-card">
+    <ion-card-header>
+      <ion-card-subtitle>Number of Viewers per season for</ion-card-subtitle>
+      <ion-card-title>Game of Thrones</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <canvas #barChart></canvas>
+    </ion-card-content>
+  </ion-card>
+  <ion-list-header color="light">Horizontal Bar Chart</ion-list-header>
+  <ion-card class="welcome-card">
+    <ion-card-header>
+      <ion-card-subtitle>Number of Viewers per season for</ion-card-subtitle>
+      <ion-card-title>Game of Thrones</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <canvas #hrzBarChart></canvas>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-list-header color="light">Horizontal Bar Chart with Custom height</ion-list-header>
+  <ion-card class="welcome-card">
+    <ion-card-header>
+      <ion-card-subtitle>Number of Viewers per season for</ion-card-subtitle>
+      <ion-card-title>Game of Thrones</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <canvas #hrzBarChart2></canvas>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-list-header color="light">Horizontal Bar Chart with custom colors</ion-list-header>
+  <ion-card class="welcome-card">
+    <ion-card-header>
+      <ion-card-subtitle>Number of Viewers per season for</ion-card-subtitle>
+      <ion-card-title>Game of Thrones</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <canvas #hrzBarChart3></canvas>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-list-header color="light">Horizontal Grouped Bar Chart</ion-list-header>
+  <ion-card class="welcome-card">
+    <ion-card-header>
+      <ion-card-subtitle>Number of Viewers per season for</ion-card-subtitle>
+      <ion-card-title>Game of Thrones</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <canvas #hrzBarChart4></canvas>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-list-header color="light">Stacked Bar Chart</ion-list-header>
+  <ion-card class="welcome-card">
+    <ion-card-header>
+      <ion-card-subtitle>Number of Viewers per season for</ion-card-subtitle>
+      <ion-card-title>Game of Thrones</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <canvas #hrzBarChart5></canvas>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-list-header color="light">Fetch data from API</ion-list-header>
+  <ion-button padding color="success" (click)="fetchData()" expand="full">Fetch Data</ion-button>
+  <ion-card class="welcome-card">
+    <ion-card-header>
+      <ion-card-subtitle>Number of Viewers per season for</ion-card-subtitle>
+      <ion-card-title>Game of Thrones</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <canvas #hrzBarChart6></canvas>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
